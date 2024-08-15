@@ -16,6 +16,10 @@
  * limitations under the License.
  */
 
+import DollMachine from './activity/doll-machine';
+import GuessGift from './activity/guess-gift';
+import LuckShake from './activity/luck-shake';
+import ShakeDice from './activity/shake-dice';
 import Button from './button';
 import Container from './container';
 import Img from './img';
@@ -39,6 +43,10 @@ export { default as TMagicUiQRcode } from './qrcode';
 export { default as TMagicUiText } from './text';
 
 const ui: Record<string, any> = {
+  'luck-shake': LuckShake, // 摇一摇
+  'doll-machine': DollMachine, // 娃娃机
+  'shake-dice': ShakeDice, // 摇骰子
+  'guess-gift': GuessGift, // 你藏我猜
   page: Page,
   container: Container,
   button: Button,

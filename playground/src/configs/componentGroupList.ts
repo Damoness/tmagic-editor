@@ -1,4 +1,4 @@
-import { Files, FolderOpened, Grid, PictureFilled, SwitchButton, Ticket, Tickets } from '@element-plus/icons-vue';
+import { Box, Files, FolderOpened, Grid, PictureFilled, SwitchButton, Ticket, Tickets } from '@element-plus/icons-vue';
 
 import type { ComponentGroup } from '@tmagic/editor';
 
@@ -89,6 +89,31 @@ export default [
             },
           ],
         },
+      },
+    ],
+  },
+  {
+    title: '活动组件',
+    items: [
+      {
+        icon: Box,
+        text: '你藏我猜',
+        type: 'guess-gift',
+      },
+      {
+        icon: Box,
+        text: '摇骰子',
+        type: 'shake-dice',
+      },
+      {
+        icon: Box,
+        text: '抓娃娃',
+        type: 'doll-machine',
+      },
+      {
+        icon: Box,
+        text: '摇一摇',
+        type: 'luck-shake',
       },
     ],
   },
